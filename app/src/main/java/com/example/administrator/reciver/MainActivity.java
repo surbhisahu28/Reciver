@@ -13,6 +13,7 @@ EditText ed1,ed2;
     Button bt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //oncreate method
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ed1=(EditText) findViewById(R.id.editTextn);
